@@ -14,7 +14,7 @@ ReactDOM.render(
   <Provider store={store}>
     <MuiThemeProvider muiTheme={getMuiTheme()}>
       <div style={{ padding: 15 }}>
-        <h2>Bond Create Example</h2>
+        <h2>Bond Create Example </h2>
         <MaterialUiForm onSubmit={showResults} />
         <Values form="MaterialUiForm" />
       </div>
